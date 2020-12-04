@@ -1,0 +1,126 @@
+
+
+  
+  /* .slides .slick-prev,
+  .slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  } */
+  
+  /* .slides {
+    position: relative;
+    padding: 0rem;
+    display: flex;
+    justify-self: center;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%; 
+    min-width:280px;
+    z-index:0;
+
+  } */
+@media(max-width:500px){
+  .slides .slick-slide{
+
+    top: -36px;
+  }
+}
+
+
+  
+  .slides .slick-prev,
+  .slides .slick-next {
+    /* position: absolute;
+    top: 50%;
+    z-index: 1;
+    background-color:lightgray;
+    height:50px;
+    width:50px;
+    border:1px solid lightgray; */
+    border-radius:50%;
+    background-color:transparent;
+    height:0px;
+    width:0px;
+    border:0px solid transparent;
+  }
+  /* @media(max-width:800px){
+    .slides > button:before{
+        display: none;
+      }
+  } */
+  @media(max-width:800px){
+    .slides .slick-prev,
+  .slides .slick-next {
+    background-color:transparent;
+    height:0px;
+    width:0px;
+    border:0px solid transparent;
+  }
+  }
+  
+  .slides .slick-prev {
+    left: 5%;
+  }
+  
+  .slides .slick-next {
+    right: 5%;
+  }
+  .slides .slick-dots{
+    top: 65%;
+    z-index: 1;
+  }
+  @media(max-width:850px){
+    .slides .slick-dots{
+        top: 50%;
+      }
+  }
+  @media(max-width:400px){
+    .slides .slick-dots{
+        top: 45%;
+      }
+      
+  }
+  @media(max-width:500px){
+    .slides .slick-dots{
+        display:none;
+      }
+    }
+  /* @media(max-width:520px){
+    .slides .slick-dots{
+        top: 55%;
+      }
+  } */
+
+  .slick-dots li button:before 
+    {
+        font-size: 10px;
+        color:#32936f;
+    }
+    @media(max-width:500px){
+      .slick-dots li button:before 
+    {
+        display: none;
+        color:transparent;
+    }
+    }
+    .slick-dots li button:active
+    {
+        color:red;
+    }
+    @media(max-width:500px){
+      .slick-dots li button:active 
+    {
+        display: none;
+        color:transparent;
+    }
+    }
+  .slick-slide > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 0px;
+  }
+
+      

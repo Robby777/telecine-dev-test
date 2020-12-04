@@ -1,0 +1,38 @@
+.Sidedrawer{
+    position: fixed;
+    width: 280px;
+    max-width:70% ;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 200;
+    background-color: lightgray;
+    padding: 32px 16px;
+    transition: transform 0.3s ease-out;
+}
+@media(min-width:700px){
+    .Sidedrawer{
+        display: none;
+    }
+}
+@media(min-width:699px){
+    .DesktopOnly{
+        display: none;
+    }
+}
+.Open{
+    transform: translateX(0);
+}
+.Close{
+    transform: translateX(-100%);
+}
+.Logo{
+    height: 11%;
+    margin-bottom: 32px;
+}
+@media(max-width:450px){
+    .logoImg{
+        width:100%;
+        object-fit: contain;
+    }
+}

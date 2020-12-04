@@ -1,0 +1,16 @@
+.Footer {
+    width: 100%;
+    background-image: url(../../assets/Desktop_Assets/Footer_Bar.png);
+    left: 0;
+    bottom: 0;
+    height: 69.16px;
+    position: relative;
+    display: block;
+}
+
+.Footer p {
+  position: absolute;
+  top: 27px;
+  right: 73px;
+  line-height: 1px;
+}
