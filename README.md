@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with telecine-dev-test
+
+[1] Clone the project 
+[2] Run npm install
+[3] npm start (to start the web application)
+[4] npm test to run the unit test 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
